@@ -131,7 +131,7 @@ class Apple2(GameObject):
 class Player(GameObject):
     def __init__(self):
       self.imgIndex = 0
-      self.images = ['frames/frame_0.gif','frames/frame_1.gif']
+      self.images = ['Pacman/pac0.gif','Pacman/pac1.gif']
       super(Player, self).__init__(0,0, self.images[self.imgIndex])
       self.dx = 30
       self.dy = 30
